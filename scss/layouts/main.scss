@@ -23,7 +23,7 @@ input[type=checkbox]:not(old){
     display: none;
   }
   input[type=checkbox]:not(old) + label{
-      display      : inline-block;
+      display      : inside;
       margin-top: 7px;
       margin-bottom: 25px;
   }
@@ -56,13 +56,10 @@ input[type=checkbox]:not(old){
       font-size   : 11px;
       line-height : 1.2;
       text-align  : center;
-      font-family: 'Material-Design-Iconic-Font';
+      font-family: 'Roboto Slab';
       font-weight: bold;
 }
 .label-agree-term {
-    color: $grey-light;
-}
-.term-service {
     color: $black-color;
 }
 .submit {
@@ -127,6 +124,9 @@ li.init {
 .form-check {
     margin-bottom: 20px;
 }
+.form-check {
+    margin-bottom: 20px;
+}
 .list-item {
     position: absolute;
     width: 100%;
@@ -146,5 +146,11 @@ li.init {
 .form-group-5 {
     margin-top: 15px;
     margin-bottom: 30px;
+}
+.select-list {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 55px;
 }
 
