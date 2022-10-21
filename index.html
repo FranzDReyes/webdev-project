@@ -17,7 +17,7 @@
     <div class="main">
 
         <div class="container">
-            <form method="POST" class="appointment-form" id="appointment-form">
+            <form method="POST" class="registration-form" id="registration-form">
                 <h2>UNIVERSITY OF THE EAST REGISTRATION FORM</h2>
                 <div class="form-group-1">
                     <h3> Personal Information</h3>
@@ -26,8 +26,8 @@
                     <input type="text" name="Middle Name" id="Middle Name" placeholder="Middle Name"/>
                     <input type="text" name="Student Number" id="Student Number" placeholder="Student Number" value = "" maxlength = "11" required />
                     <div class="select-list-1">
-                        <select name="Current Year Level" id="Current Year Level">
-                            <option selected value="">Current Year Level</option>
+                        <select name="current-year-level" id="current-year-level">
+                            <option selected value=""><b>Current Year Level</b></option>
                             <option value="Year Level 1">1</option>
                             <option value="Year Level 2">2</option>
                             <option value="Year Level 3">3</option>
@@ -47,18 +47,11 @@
         <input type="text" name="Contact Number" id="Contact Number" placeholder="Contact Number" maxlength="11" required/>
         <input type="text" name="Home Address" id="Home Address" placeholder="Home Address" required />
     </div>
-    <form>
-        <div>
-          <label for="Email">Email address</label>
-          <input type="email" id="exampleInputEmail1">
+    <div class="form-check-1">
+        <input type="checkbox" name="Provincial" id="Provincial" class="label-agree-term" />
+        <label for="Home" class="label-agree-term">Provincial Address<span><span></span></span> Same as stated above</label>
         </div>
-        <div>
-        <div>
-          <input type="checkbox" id="exampleCheck" >
-          <label for="exampleCheck">Sign me up for email about exclusive offers</label>
-          //fix checkbox please
-        </div>
-      </form>
+    </form>
       <div class="form-group-3">
         <h3> Social Media Accounts</h3>
         <input type="text" name="Facebook Username" id="Facebook Username" placeholder="Facebook Username" pattern="[a-zA-Z0-9\s]+"  required />
@@ -69,11 +62,16 @@
     <h3>In case of emergency:</h3>
         <input type="text" name="Full Name" id="Full Name" placeholder="Full Name" required />
         <input type="text" name="Contact Number" id="Contact Number" placeholder="Contact Number"  maxlength="11" required />
-        //Home Address checkbox please change
+        <div class="form-check-2">
+            <form>
+                <input type="checkbox" name="showRatings" id="showRatings" value="1" checked>
+                <label for="showRatings">Show Ratings</label>
+              </form>
+   
     </div>
     <div class="form-group-5">
         <div class="select-list-3">
-            <select name="Membership Type" id="Membership Type">
+            <select name="membership-type" id="membership-type">
                 <option selected value="">Membership Type</option>
                 <option value="New">New</option>
                 <option value="Renewal">Renewal</option>
@@ -81,8 +79,8 @@
     </div>
     <div class="file-upload-1"> 
     <label for="myfile">Select a file:</label>
-    <input type="file" id="myfile" name="myfile">
-    accept="image/png, image/jpeg">
+    <input type="file" id="myfile" name="myfile" accept="image/*">
+   
     </div>
 
 
@@ -90,7 +88,10 @@
         <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
         <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree to the  <a href="#" class="term-service">Terms and Conditions</a></label>
     </div>
-    <div class="form-submit">
+</div>
+<div class="form-submit">
+    <input type="submit" name="submit" id="submit" class="submit" value="Submit" />
+</div>
     </form>
                         </div>
                     </div>

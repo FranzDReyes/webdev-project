@@ -1,5 +1,5 @@
-.appointment-form {
-    padding: 50px 60px 70px 60px;
+.registration-form {
+    padding: 50px 50px 50px 50px;
 }
 input, select {
     width: 100%;
@@ -120,9 +120,6 @@ li.init {
         content: '\f2f9';
     }
 }
-#confirm_type {
-    margin-bottom: 30px;
-}
 .form-group-2 {
     margin-top: 15px;
     margin-bottom: 30px;
@@ -130,19 +127,24 @@ li.init {
 .form-check {
     margin-bottom: 20px;
 }
-.select-list {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    margin-bottom: 55px;
-}
 .list-item {
     position: absolute;
     width: 100%;
 }
-#confirm_type {
-    z-index: 99;
+.form-group-1 {
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
-#hour_appointment {
-    z-index: 9;
+.form-group-3 {
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
+.form-group-4 {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.form-group-5 {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+

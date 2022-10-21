@@ -125,7 +125,7 @@ body {
   font-size: 13px;
   line-height: 1.8;
   color: #fff;
-  background-image: url("../images/body-bg.jpg");
+  background-image: url("../images/bg-form.png");
   background-repeat: no-repeat;
   background-size: cover;
   -moz-background-size: cover;
@@ -151,7 +151,7 @@ body {
   -o-border-radius: 10px;
   -ms-border-radius: 10px; }
 
-.appointment-form {
+.registration-form {
   padding: 50px 60px 70px 60px; }
 
 input, select {
@@ -211,7 +211,7 @@ input[type=checkbox]:not(old):checked + label > span:before {
   font-family: 'Material-Design-Iconic-Font';
   font-weight: bold; }
 
-.label-agree-term {
+.label- {
   color: #999; }
 
 .term-service {
@@ -286,25 +286,43 @@ li.init {
 .form-group-2 {
   margin-top: 15px;
   margin-bottom: 30px; }
+  .form-group-3 {
+    margin-top: 15px;
+    margin-bottom: 30px; }
+    .form-group-4 {
+      margin-top: 15px;
+      margin-bottom: 30px; }
 
 .form-check {
   margin-bottom: 20px; }
 
-.select-list {
+.select-list-1 {
   position: relative;
   display: inline-block;
   width: 100%;
   margin-bottom: 55px; }
-
+   .select-list-2 {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 55px; }
+    .select-list-3{
+      position: relative;
+      display: inline-block;
+      width: 100%;
+      margin-bottom: 55px; }
 .list-item {
   position: absolute;
   width: 100%; }
 
-#confirm_type {
+#current-year-level {
   z-index: 99; }
+  #Program {
+    z-index: 99; }
+    #membership-type {
+      z-index: 99; }
+  
 
-#hour_appointment {
-  z-index: 9; }
 
 @media screen and (max-width: 1024px) {
   .container {
